@@ -1,0 +1,133 @@
+.Higlightedcard__box {
+  display: flex;
+  border-radius: 14px;
+  align-items: center;
+  padding: 10px 80px 15px 25px;
+  background-color: white;
+}
+.Higlightedcard__box > img {
+  align-items: center;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+}
+.details {
+  margin-left: 25px;
+}
+.address > div {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.address {
+  display: flex;
+}
+.timezone {
+  display: flex;
+}
+.timezone > div {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.gender {
+  margin-left: 5px;
+}
+.Higlightedcard__box > div > h1 {
+  color: #e06259;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-weight: 900;
+  text-decoration: underline;
+}
+@media (min-width: 320px) and (max-width: 566.99px) {
+  .Higlightedcard__box {
+    padding: 10px 10px 10px 10px;
+    font-size: 6px;
+  }
+  .timezone > div {
+    margin-left: 2px;
+    margin-bottom: 2px;
+  }
+  .address > div {
+    margin-left: 2px;
+    margin-bottom: 2px;
+  }
+  .Higlightedcard__box > div > h1 {
+    font-size: 15px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+  }
+  .Higlightedcard__box > img {
+    width: 45px;
+    height: 45px;
+  }
+  .gender {
+    margin-left: 2px;
+    margin-bottom: 2px;
+  }
+}
+@media (min-width: 460px) and (max-width: 767.98px) {
+  .Higlightedcard__box {
+    padding: 10px 20px 10px 10px;
+    font-size: 10px;
+  }
+  .timezone > div {
+    margin-left: 4px;
+    margin-bottom: 4px;
+  }
+  .address > div {
+    margin-left: 4px;
+    margin-bottom: 4px;
+  }
+  .Higlightedcard__box > div > h1 {
+    font-size: 20px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+  }
+  .Higlightedcard__box > img {
+    width: 75px;
+    height: 75px;
+  }
+  .gender {
+    margin-left: 4px;
+    margin-bottom: 4px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .Higlightedcard__box {
+    padding: 10px 20px 10px 10px;
+    font-size: 15px;
+  }
+  .timezone > div {
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+  .address > div {
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+  .Higlightedcard__box > div > h1 {
+    font-size: 25px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+  .Higlightedcard__box > img {
+    width: 95px;
+    height: 95px;
+  }
+  .gender {
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .Higlightedcard__box {
+    font-size: 20px;
+  }
+  .Higlightedcard__box > div > h1 {
+    font-size: 30px;
+  }
+  .Higlightedcard__box > img {
+    width: 105px;
+    height: 105px;
+  }
+}
