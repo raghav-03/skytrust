@@ -20,7 +20,8 @@ Go to the project directory
 
 ## FrontEnd
 
-Hosted Link - https://skytrust.vercel.app/
+Hosted Link - https://skytrust-pi.vercel.app/
+
 
 Install dependencies
 
